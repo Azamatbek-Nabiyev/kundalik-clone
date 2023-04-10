@@ -1,0 +1,116 @@
+nav {
+    height: 105px;
+    width: 100%;
+}
+.top_colors span{
+    display: inline-block;
+    height: 4px;
+    width: 20%;
+    position: relative;
+    top: -11px;
+}
+.color1 {
+    background-color: #4CC0E2;
+}
+.color2 {
+    background-color: #BBD036;
+}
+.color3 {
+    background-color: #FED939;
+}
+.color4 {
+    background-color: #F4931C;
+}
+.color5 {
+    background-color: #B976AF;
+}
+.menu {
+    display: flex;
+}
+.logo {
+    width: 30%;
+    cursor: pointer;
+    text-align: right;
+    padding: 10px 10px 0 0;
+}
+.menu-items {
+    width: 70%;
+    display: flex;
+}
+.menu-items ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 14px;
+    color: #888C8D;
+    font-weight: 560;
+    margin-top: 35px;
+    padding-left: 70px;
+}
+.menu-items ul li {
+    cursor: pointer;
+}
+.menu-items ul li:hover {
+    color: #333;
+}
+.menu-items ul span {
+    color: #c0c0c0 !important;
+    display: inline-block;
+}
+
+.btns {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.enter {
+    border: 2px #00B4E3 solid;
+    background: transparent;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #00B4E3;
+    font-weight: 500;
+    cursor: pointer;
+}
+.ulash {
+    border: 2px #19B47B solid;
+    background: transparent;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #19B47B;
+    font-weight: 500;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.ulash:hover {
+    border: 2px #19B47B solid;
+    background: transparent;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 10px;
+    background-color: #19B47B;
+    cursor: pointer;
+}
+.enter:hover {
+    border: 2px #00B4E3 solid;
+    background: transparent;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #00B4E3;
+    cursor: pointer;
+}
+@media screen and (max-width: 980px) {
+    .menu-items {
+        display: none;
+    }
+    .menu {
+        height: 76px;
+    }
+}
